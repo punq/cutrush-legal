@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Cut Rush</title>
+    <meta name="description" content="Privacy Policy for Cut Rush mobile game. Learn how we collect, use, and protect your information.">
+    <style>
+        :root {
+            --bg-primary: #0f172a;
+            --bg-secondary: #1e293b;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --accent: #3b82f6;
+            --accent-light: #60a5fa;
+            --border: #334155;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 24px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 48px;
+            padding-bottom: 32px;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            background: linear-gradient(135deg, var(--accent-light), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .last-updated {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-top: 40px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+        
+        h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-top: 24px;
+            margin-bottom: 12px;
+            color: var(--accent-light);
+        }
+        
+        p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+        
+        ul {
+            margin-bottom: 16px;
+            padding-left: 24px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            color: var(--text-secondary);
+        }
+        
+        a {
+            color: var(--accent-light);
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .highlight-box {
+            background: var(--bg-secondary);
+            border-left: 4px solid var(--accent);
+            padding: 16px 20px;
+            margin: 24px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .highlight-box p {
+            margin-bottom: 0;
+        }
+        
+        .contact-section {
+            background: var(--bg-secondary);
+            padding: 24px;
+            border-radius: 12px;
+            margin-top: 40px;
+        }
+        
+        .contact-section h2 {
+            margin-top: 0;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 24px 16px;
+            }
+            
+            h1 {
+                font-size: 1.75rem;
+            }
+            
+            h2 {
+                font-size: 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy</h1>
+            <p class="last-updated">Last updated: January 29, 2026</p>
+        </header>
+        
+        <main>
+            <section>
+                <h2>Overview</h2>
+                <p>Cut Rush ("we", "our", or "the app") is a mobile game developed by Diego Flores. This policy explains what information we collect and how we use it.</p>
+            </section>
+            
+            <section>
+                <h2>Information We Collect</h2>
+                
+                <h3>Gameplay Data</h3>
+                <p>We collect anonymous gameplay statistics to improve the game experience:</p>
+                <ul>
+                    <li>Game scores and session duration</li>
+                    <li>Levels completed and achievements earned</li>
+                    <li>Feature usage patterns (shop, challenges, streaks)</li>
+                    <li>Device type and screen size (for optimization)</li>
+                </ul>
+                
+                <h3>Analytics Events We Track</h3>
+                <p>The following anonymous events are collected via PostHog analytics:</p>
+                <ul>
+                    <li><strong>Session data:</strong> Session start/end, duration</li>
+                    <li><strong>Gameplay:</strong> Cuts, combos, streaks, game over events</li>
+                    <li><strong>Features:</strong> Shop interactions, challenge participation, achievement unlocks</li>
+                    <li><strong>Economy:</strong> Coins earned/spent, purchases made</li>
+                    <li><strong>Retention:</strong> Daily streak claims, comeback bonuses</li>
+                </ul>
+                
+                <h3>Local Storage</h3>
+                <p>The following data is stored <strong>only on your device</strong>:</p>
+                <ul>
+                    <li>Game progress and settings</li>
+                    <li>Unlocked items (balls, trails, themes)</li>
+                    <li>Achievement progress</li>
+                    <li>Daily challenge history</li>
+                    <li>High scores and statistics</li>
+                </ul>
+                
+                <h3>Device Identifiers</h3>
+                <p>To prevent cheating and ensure fair leaderboards, we use:</p>
+                <ul>
+                    <li><strong>Anonymous Authentication:</strong> Firebase generates a random, anonymous ID when you first play. This ID is not linked to any personal information.</li>
+                    <li><strong>Device ID:</strong> A random identifier stored locally to track your game progress across sessions.</li>
+                </ul>
+                <p>These identifiers cannot be used to identify you personally and are only used for preventing duplicate leaderboard entries, ensuring fair gameplay, and tracking your personal best scores.</p>
+                
+                <div class="highlight-box">
+                    <h3>We Do NOT Collect</h3>
+                    <ul>
+                        <li>Personal identification information (name, email, phone)</li>
+                        <li>Location data</li>
+                        <li>Contact lists</li>
+                        <li>Photos or files from your device</li>
+                        <li>Payment information (all game features are free)</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section>
+                <h2>How We Use Information</h2>
+                <p>We use collected data to:</p>
+                <ul>
+                    <li>Improve game performance and fix bugs</li>
+                    <li>Balance gameplay difficulty and economy</li>
+                    <li>Understand which features players enjoy</li>
+                    <li>Provide leaderboard functionality</li>
+                    <li>Track retention and engagement metrics</li>
+                    <li>Prevent cheating and ensure fair competition</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>Third-Party Services</h2>
+                <p>We use the following services that may collect data according to their own privacy policies:</p>
+                
+                <h3>PostHog (Analytics)</h3>
+                <ul>
+                    <li>Collects anonymous gameplay and usage patterns</li>
+                    <li>Data is transmitted over encrypted connections (HTTPS)</li>
+                    <li>No personally identifiable information is sent</li>
+                    <li><a href="https://posthog.com/privacy" target="_blank" rel="noopener">PostHog Privacy Policy</a></li>
+                </ul>
+                
+                <h3>Firebase (Cloud Services)</h3>
+                <ul>
+                    <li><strong>Authentication:</strong> Anonymous sign-in to generate a unique player ID (no personal data required)</li>
+                    <li><strong>Firestore Database:</strong> Stores leaderboard scores and challenge data</li>
+                    <li>Uses industry-standard encryption and security</li>
+                    <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy Policy</a></li>
+                </ul>
+                
+                <h3>Google AdMob (Advertising)</h3>
+                <p>We use Google AdMob to display optional rewarded advertisements. When you choose to watch an ad, AdMob may collect:</p>
+                <ul>
+                    <li><strong>Device identifiers:</strong> Advertising ID (can be reset in device settings)</li>
+                    <li><strong>IP address:</strong> For general location and fraud prevention</li>
+                    <li><strong>Ad interaction data:</strong> Which ads you view and interact with</li>
+                </ul>
+                <p>This data is used to display relevant advertisements, measure ad performance, and prevent fraud.</p>
+                
+                <div class="highlight-box">
+                    <p><strong>Your choices regarding ads:</strong></p>
+                    <ul>
+                        <li>Ads are <strong>opt-in only</strong> — you choose when to watch rewarded ads</li>
+                        <li>You can opt out of personalized ads: <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener">Google Ad Settings</a></li>
+                        <li>You can reset your Advertising ID in your device settings</li>
+                        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section>
+                <h2>Data Retention</h2>
+                <ul>
+                    <li>Analytics data is retained for up to 12 months</li>
+                    <li>Local game data persists until you uninstall the app or clear app data</li>
+                    <li>Leaderboard scores are retained indefinitely</li>
+                    <li>Anonymous authentication data is managed by Firebase and may be deleted after extended inactivity</li>
+                    <li>You can reset your local progress anytime through the game's settings</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>Children's Privacy</h2>
+                <p>Cut Rush is suitable for general audiences (rated Everyone/PEGI 3). We do not knowingly collect personal information from children under 13. The game does not require any account creation or personal information to play.</p>
+            </section>
+            
+            <section>
+                <h2>Data Security</h2>
+                <p>We implement industry-standard security measures to protect collected data:</p>
+                <ul>
+                    <li>All analytics data is transmitted over encrypted HTTPS connections</li>
+                    <li>No sensitive personal data is collected or stored</li>
+                    <li>Firebase data is protected by Google Cloud security measures</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>Your Rights</h2>
+                <p>You can:</p>
+                <ul>
+                    <li>Clear local game data by uninstalling the app or clearing app data</li>
+                    <li>Opt out of analytics by disabling internet access for the app</li>
+                    <li>Request information about data collected by contacting us</li>
+                    <li>Request deletion of analytics data by contacting us</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>International Users</h2>
+                <p>Analytics data may be processed in the United States through PostHog's cloud infrastructure. By using the app, you consent to this transfer.</p>
+            </section>
+            
+            <section>
+                <h2>Changes to This Policy</h2>
+                <p>We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the "Last updated" date.</p>
+            </section>
+            
+            <section class="contact-section">
+                <h2>Contact Us</h2>
+                <p>If you have any questions about this Privacy Policy, please contact:</p>
+                <p><strong>Diego Flores</strong><br>
+                Email: <a href="mailto:digitalpunq@gmail.com">digitalpunq@gmail.com</a></p>
+            </section>
+        </main>
+        
+        <footer>
+            <p>© 2026 Cut Rush. All rights reserved.</p>
+            <p>This privacy policy is effective as of January 29, 2026.</p>
+        </footer>
+    </div>
+</body>
+</html>
